@@ -13,8 +13,9 @@ git config --global alias.lg "log --pretty=format:'%Cred%h %Cgreen%ad%Creset %s 
 alias ve="source venv/bin/activate"
 alias de="deactivate"
 
-# MISC
+# MISCELLANOUS ALIASES
 alias "t=tree -I '.git|.tox|venv' -C --dirsfirst"
+alias bounce="source /bb/dtjiraEngDev/afranceschin/jira8-jflo/dev-instance-start.sh"
 alias config='/opt/bb/bin/git --git-dir=/home/afranceschin/.dotfiles/ --work-tree=/home/afranceschin'
 alias ipy="cd ~/scripts/misc; source venv/bin/activate; ipython notebook --no-mathjax --port=8098 --ip=0.0.0.0"
 alias jlab="cd ~/scripts/misc; source venv/bin/activate; jupyter lab --port=8098 --ip=0.0.0.0"
