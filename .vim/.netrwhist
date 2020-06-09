@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/bb/bigstorq3/gdto/afranceschin/bcos-python-1/bloomberg/gdto'
+let g:netrw_dirhist_2='/bb/bigstorq3/gdto/afranceschin/bcos-python-1/bloomberg/gdto/bcos'
+let g:netrw_dirhist_3='/bb/bigstorq3/gdto/afranceschin/bcos-python-1'
+let g:netrw_dirhist_4='/bb/bigstorq3/gdto/afranceschin/bcos-python-1/bloomberg'
+let g:netrw_dirhist_5='/bb/bigstorq3/gdto/afranceschin/bcos-python-1/bloomberg/gdto'
+let g:netrw_dirhist_6='/bb/bigstorq3/gdto/afranceschin/bcos-python-1/bloomberg/gdto/bcos'
