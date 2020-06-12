@@ -23,6 +23,7 @@ alias ls="ls --color --group-directories-first -p"
 alias misc="cd ~/scripts/misc"
 alias new='python3.7 -m venv venv && source venv/bin/activate && pip install -e .'
 alias p="coverage run -m py.test --cov-report term-missing -vv --color=yes &&  coverage report --rcfile=.coveragerc"
+alias s="flake8 setup.py src/ tests/ && echo 'Flake8 succesful' && black setup.py src/ tests/ --check"
 
 # Shell Scripts
 alias csrepo="source /home/afranceschin/libraries/shell_scripts/csrepo.sh"
